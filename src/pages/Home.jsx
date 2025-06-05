@@ -9,7 +9,7 @@ export default function Home() {
                 <h1>Welcome to StudentPortal</h1>
                 <p className='lead'>Explore courses and the latest news here.</p>
             </div>
-            {/* Card links */}
+            {/* Two cards linking to Courses and News */}
             <Row xs={1} md={2} className='g-4'>
                 {/*Courses */}
                 <Col>

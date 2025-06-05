@@ -96,6 +96,7 @@ export default function NewsArticle() {
                     <p>{article.body}</p>
                 </Card.Body>
             </Card>
+            {/* Back to News button */}
             <Button as={Link} to='/news' variant="outline-secondary">
                 ← Back to News
             </Button>

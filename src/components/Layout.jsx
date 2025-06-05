@@ -11,12 +11,16 @@ export default function Layout() {
             <Navbar 
                 bg='light' 
                 expand='lg' 
-                expanded={expanded}
+                expanded={expanded}   // control open/close
                 onToggle={(isOpen) => setExpanded(isOpen)}
                 className='mb-4'
             >
                 <Container>
-                    <Navbar.Brand as={NavLink} to='/' onClick={() => setExpanded(false)}>
+                    <Navbar.Brand 
+                        as={NavLink} 
+                        to='/' 
+                        onClick={() => setExpanded(false)} // close menu on click
+                    >
                         StudentPortal
                     </Navbar.Brand>
                     <Navbar.Toggle aria-controls='navbar-nav' />
@@ -31,6 +35,7 @@ export default function Layout() {
                     </Navbar.Collapse>
                 </Container>
             </Navbar>
+            {/* Main content rendered here */}
             <Container className='mt-4'>
                 <Outlet />
             </Container>

@@ -11,6 +11,7 @@ export default function CourseDetails() {
     //Convert id to number and find matching course
     const course = courses.find((c) => c.id === parseInt(id, 10));
 
+    // If no course matches, show a fallback message
     if(!course) {
         return(
             <div className='text-center mt-5'>
@@ -21,11 +22,12 @@ export default function CourseDetails() {
             </div>
         )
     }
-    //Placeholder img
+    //Build a placeholder image URL
     const imgUrl = `https://picsum.photos/seed/course-${course.id * 4}/800/400`;
     return (
         <main className="mb-5">
             <h1 className='mb-4'>{course.title}</h1>
+            {/* Course details card */}
             <Card className='mb-4'>
                 <Card.Img variant='top' src={imgUrl} alt={course.title} />
                 <Card.Body>
@@ -45,6 +47,7 @@ export default function CourseDetails() {
                     <p>{course.detailedDescription}</p>
                 </Card.Body>
             </Card>
+            {/* Navigation buttons */}
             <div className='d-flex gap-2'>
                 <Button as={Link} to='/courses' variant='outline-secondary'>
                     ← Back to Courses

@@ -5,6 +5,7 @@ import { RegCoursesContext } from '../contexts/RegCoursesContext'
 import courses from '../assets/courses.json'
 
 export default function MyCourses() {
+    // Get the array of registrations from context
     const { registered } = useContext(RegCoursesContext);
 
     //If not registered for any courses
@@ -15,7 +16,7 @@ export default function MyCourses() {
                     <Col xs={12} md={8} lg={6} className="text-center mt-5">
                         <h3>You haven’t registered for any courses yet.</h3>
                         <Button as={Link} to="/courses" variant="primary" className="mt-3">
-                        Browse Courses
+                            Browse Courses
                         </Button>
                     </Col>
                 </Row>
@@ -27,11 +28,13 @@ export default function MyCourses() {
         <main className="mb-5">
             <Container>
                 <Row className='justify-content-center'>
+                    {/* Center column that limits width on larger screens */}
                     <Col xs={12} md={8} lg={6}>
                         <h1 className='mb-4'>My Courses</h1>
+                        {/* Loop through each registration and display course info */}
                         {registered.map((reg, idx) => {
                             const course = courses.find((c) => c.id === reg.courseId);
-                            //If not found, skip
+                            {/*If not found, skip */}
                             if(!course) return null;
 
                             return (

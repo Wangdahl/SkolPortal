@@ -5,15 +5,16 @@ import SearchBar from '../components/SearchBar'
 import newsList from '../assets/news.json'
 
 export default function News() {
+    // State for search term
     const [search, setSearch ] = useState('');
-    //Pagination
+    //State for pagination
     const [currentPage, setCurrentPage] = useState(1);
     const itemsPerPage = 5;
-    //Filter news by title
+    //Filter news by title based on search input
     const filteredNews = newsList.filter(item => 
         item.title.toLowerCase().includes(search.toLowerCase())
     );
-    //Pagination calculations
+    // Calculate page count and slice out items for current page
     const totalPages = Math.ceil(filteredNews.length / itemsPerPage);
     const startIndex = (currentPage -1) * itemsPerPage;
     const paginatedNews = filteredNews.slice(startIndex, startIndex + itemsPerPage);
@@ -21,11 +22,13 @@ export default function News() {
     return (
         <main className="mb-5">
             <h1 className='mb-4'>News</h1>
+            {/* SearchBar updates `search` and resets to page 1 on change */}
             <SearchBar
                 value={search}
                 onChange={e => {setSearch(e.target.value); setCurrentPage(1);}}
                 onClear={() => setSearch('')}
             />
+            {/* List of news excerpts */}
             <ListGroup>
                 {paginatedNews.map(item => (
                     <ListGroup.Item key={item.id} className='mb-3'>
@@ -47,6 +50,7 @@ export default function News() {
                     </ListGroup.Item>
                 ))}
             </ListGroup>
+            {/* Pagination controls shown only if more than one page */}
             {totalPages > 1 && (
                 <div className='d-flex justify-content-center mt-3'>
                     <Pagination>

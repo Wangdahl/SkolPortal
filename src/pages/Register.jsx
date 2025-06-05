@@ -3,7 +3,7 @@ import { useLocation } from 'react-router-dom'
 import { 
     TextField, Button, FormControl, InputLabel, 
     Select, MenuItem, Dialog, DialogTitle, 
-    DialogContent, DialogActions 
+    DialogContent, DialogActions, Container
 } from '@mui/material'
 import { RegCoursesContext } from '../contexts/RegCoursesContext'
 import courses from '../assets/courses.json'
@@ -13,6 +13,7 @@ export default function Register() {
     //Setting up states..
     const [name, setName ] = useState('');
     const [email, setEmail] = useState('');
+    // Preselect course if coming from CourseDetails
     const [courseId, setCourseId] = useState(location.state?.courseId || '');
     const [dialogOpen, setDialogOpen] = useState(false);
     const [errors, setErrors] = useState({
@@ -42,56 +43,59 @@ export default function Register() {
     }
     return (
         <main className="mb-5">
-            <h1>Register</h1>
-            <form noValidate onSubmit={handleSubmit}>
-                <TextField
-                    label='Name'
-                    value={name}
-                    onChange={e=>setName(e.target.value)}
-                    required
-                    error={errors.name}
-                    helperText={errors.name ? 'Name is required' : ''}
-                    fullWidth
-                    margin='normal'
-                />
-                <TextField 
-                    label="Email" 
-                    type="email" 
-                    value={email} 
-                    onChange={e => setEmail(e.target.value)} 
-                    required 
-                    error={errors.email} 
-                    helperText={errors.email ? "Enter a valid email" : ""} 
-                    fullWidth 
-                    margin="normal"
-                />
-                <FormControl fullWidth margin='normal' error={errors.course}>
-                    <InputLabel id='course-select-label'>Course</InputLabel>
-                    <Select
-                        labelId='course-select-label'
-                        value={courseId}
-                        onChange={e => setCourseId(e.target.value)}
+            {/* Center and limit width */}
+            <Container maxWidth='sm' sx={{py:2}}>
+                <h1>Register</h1>
+                <form noValidate onSubmit={handleSubmit}>
+                    <TextField
+                        label='Name'
+                        value={name}
+                        onChange={e=>setName(e.target.value)}
                         required
-                    >
-                        <MenuItem value=''><em>None</em></MenuItem>
-                        {courses.map(c => (
-                            <MenuItem key={c.id} value={c.id}>{c.title}</MenuItem>
-                        ))}
-                    </Select>
-                </FormControl>
-                <Button type='submit' variant='contained' color='primary'>Submit</Button>
-            </form>
-
-            <Dialog open={dialogOpen} onClose={() => setDialogOpen(false)}>
-                <DialogTitle>Register Successful</DialogTitle>
-                <DialogContent>
-                    <p>Thank you, {name}. You have registered for the course {''}
-                        <strong>{selectedCourse ? selectedCourse.title : ''}</strong>.</p>
-                </DialogContent>
-                <DialogActions>
-                    <Button onClick={() => setDialogOpen(false)}>Close</Button>
-                </DialogActions>
-            </Dialog>
+                        error={errors.name}
+                        helperText={errors.name ? 'Name is required' : ''}
+                        fullWidth
+                        margin='normal'
+                    />
+                    <TextField 
+                        label="Email" 
+                        type="email" 
+                        value={email} 
+                        onChange={e => setEmail(e.target.value)} 
+                        required 
+                        error={errors.email} 
+                        helperText={errors.email ? "Enter a valid email" : ""} 
+                        fullWidth 
+                        margin="normal"
+                    />
+                    <FormControl fullWidth margin='normal' error={errors.course}>
+                        <InputLabel id='course-select-label'>Course</InputLabel>
+                        <Select
+                            labelId='course-select-label'
+                            value={courseId}
+                            onChange={e => setCourseId(e.target.value)}
+                            required
+                        >
+                            <MenuItem value=''><em>None</em></MenuItem>
+                            {courses.map(c => (
+                                <MenuItem key={c.id} value={c.id}>{c.title}</MenuItem>
+                            ))}
+                        </Select>
+                    </FormControl>
+                    <Button type='submit' variant='contained' color='primary'>Submit</Button>
+                </form>
+                {/* Confirmation dialog */}
+                <Dialog open={dialogOpen} onClose={() => setDialogOpen(false)}>
+                    <DialogTitle>Register Successful</DialogTitle>
+                    <DialogContent>
+                        <p>Thank you, {name}. You have registered for the course {''}
+                            <strong>{selectedCourse ? selectedCourse.title : ''}</strong>.</p>
+                    </DialogContent>
+                    <DialogActions>
+                        <Button onClick={() => setDialogOpen(false)}>Close</Button>
+                    </DialogActions>
+                </Dialog>
+            </Container>
         </main>
     )
 }

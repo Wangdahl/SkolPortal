@@ -5,9 +5,10 @@ import { Row, Col, Card, Button, Pagination } from 'react-bootstrap'
 import courses from '../assets/courses.json'
 
 export default function Courses() {
-    //Pagination
+    // Track current page for pagination
     const [currentPage, setCurrentPage] = useState(1);
     const itemsPerPage = 6;
+    // Calculate how many pages..
     const totalPages = Math.ceil(courses.length / itemsPerPage);
     const startIndex = (currentPage - 1) * itemsPerPage;
     const endIndex = startIndex + itemsPerPage;
@@ -15,7 +16,8 @@ export default function Courses() {
 
     return (
         <main className="mb-5">
-            <h2 className='mb-4'>Courses</h2>
+            <h1 className='mb-4'>Courses</h1>
+            {/* Display only the courses for the current page */}
             <Row xs={1} md={2} lg={3} className='g-4'>
                 {paginatedCourses.map((course) => {
                     const imgUrl = `https://picsum.photos/seed/course-${course.id * 4}/600/300`;
@@ -46,7 +48,7 @@ export default function Courses() {
                     )
                 })}
             </Row>
-            {/* Pagination controls */}
+            {/* Only show pagination if more than one page */}
             {totalPages > 1 && (
                 <div className="d-flex justify-content-center mt-4">
                     <Pagination>

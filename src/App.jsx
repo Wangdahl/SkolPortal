@@ -15,6 +15,7 @@ function App() {
 
   return (
     <Routes>
+      {/* Layout wraps all pages (navbar + outlet) */}
       <Route path='/' element={<Layout />}>
         <Route index element={<Home />}/>
         <Route path='courses' element={<Courses />}/>
@@ -23,7 +24,7 @@ function App() {
         <Route path="news/:id" element={<NewsArticle />} />
         <Route path='register' element={<Register/>}/>
         <Route path='my-courses' element={<MyCourses/>}/>
-        <Route path="*" element={<Navigate to="/" replace />} />
+        <Route path="*" element={<Navigate to="/" replace />} /> {/* redirect unknown */}
       </Route>
     </Routes>
   )
