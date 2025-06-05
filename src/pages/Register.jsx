@@ -21,13 +21,15 @@ export default function Register() {
         email: false, 
         course: false
     });
+    const [duplicateError, setDuplicateError] = useState(false);
     //..and context
-    const { registerCourse } = useContext(RegCoursesContext);
+    const { registered, registerCourse } = useContext(RegCoursesContext);
 
     const selectedCourse = courses.find((c) => c.id === courseId);
 
     const handleSubmit = (e) => {
         e.preventDefault();
+        setDuplicateError(false)
 
         const newErrors = {
             name: name.trim() === '',
@@ -36,6 +38,11 @@ export default function Register() {
         };
         setErrors(newErrors);
         if(!newErrors.name && !newErrors.email && !newErrors.course) {
+            // Prevent duplicate registration
+            if (registered.some((r) => r.courseId === courseId)) {
+                setDuplicateError(true)
+                return
+            }
             //If valid register
             registerCourse({ courseId, name, email });
             setDialogOpen(true);
@@ -46,6 +53,11 @@ export default function Register() {
             {/* Center and limit width */}
             <Container maxWidth='sm' sx={{py:2}}>
                 <h1>Register</h1>
+                {duplicateError && (
+                    <p className="text-danger">
+                        You have already registered for this course.
+                    </p>
+                )}
                 <form noValidate onSubmit={handleSubmit}>
                     <TextField
                         label='Name'
