@@ -1,19 +1,25 @@
 import { useState, useContext } from 'react'
+import { useLocation } from 'react-router-dom'
 import { 
     TextField, Button, FormControl, InputLabel, 
     Select, MenuItem, Dialog, DialogTitle, 
     DialogContent, DialogActions 
-} from '@mui/material';
+} from '@mui/material'
 import { RegCoursesContext } from '../contexts/RegCoursesContext'
 import courses from '../assets/courses.json'
 
 export default function Register() {
+    const location = useLocation();
     //Setting up states..
     const [name, setName ] = useState('');
     const [email, setEmail] = useState('');
-    const [courseId, setCourseId] = useState('');
+    const [courseId, setCourseId] = useState(location.state?.courseId || '');
     const [dialogOpen, setDialogOpen] = useState(false);
-    const [errors, setErrors] = useState({name: false, email: false, course: false});
+    const [errors, setErrors] = useState({
+        name: false, 
+        email: false, 
+        course: false
+    });
     //..and context
     const { registerCourse } = useContext(RegCoursesContext);
 

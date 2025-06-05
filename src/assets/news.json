@@ -1,44 +1,98 @@
 [
     {
         "id": 1,
-        "title": "Nytt campusbibliotek invigt",
-        "body": "Universitetets nya campusbibliotek invigdes den 1 juni 2025 med öppna föreläsningar och guidade turer. Biblioteket har moderna studieplatser, ett omfattande digitalt arkiv och caféfaciliteter för studenter. Invigningen lockade över 500 besökare inklusive fakultetsmedlemmar och studenter.",
-        "author": "Campusnytt",
+        "title": "New Campus Library Inaugurated",
+        "body": "The university’s new campus library was inaugurated on June 1, 2025, with open lectures and guided tours. The library features modern study spaces, an extensive digital archive, and a café for students and faculty. During the opening celebration, attendees enjoyed presentations on the library’s innovative digital catalog system and a showcase of rare manuscripts from the university archives. The facility also includes collaborative workrooms equipped with interactive whiteboards, a multimedia lab for digital media creation, and extended opening hours to accommodate evening study sessions. In the coming months, the library plans to host a series of workshops on research methodologies and information literacy for both undergraduate and graduate students.",
+        "excerpt": "The university’s new campus library was inaugurated on June 1, 2025, with open lectures and guided tours.",
+        "author": "Campus Chronicle",
         "datePublished": "2025-06-01"
     },
     {
         "id": 2,
-        "title": "Sommarläger för programmering lockar rekordmånga",
-        "body": "Det årliga sommarprogrammeringslägret på universitetet såg i år rekordhögt deltagande med 120 studenter. Under två veckor får deltagarna intensiv träning i Python, JavaScript och maskininlärning. Lägret avslutas med att grupperna presenterar egna projekt för en jury av professorer.",
-        "author": "Studentwebben",
+        "title": "Summer Programming Camp Attracts Record Numbers",
+        "body": "This year’s annual summer programming camp at the university saw a record participation of 120 students from various backgrounds and regions. Over two weeks, participants received intensive training in Python, JavaScript, and machine learning under the guidance of experienced instructors and teaching assistants. In addition to core coding sessions, the camp included guest lectures from industry professionals at leading tech companies, coding challenges with real-time feedback, and a mentorship program pairing students with senior computer science majors. On the final day, teams presented their own software projects—ranging from web applications to simple AI-driven tools—to a panel of professors and industry experts. Beyond technical skills, the camp emphasized collaboration, problem-solving, and presentation skills, with participants receiving certificates of completion and recommendations for potential internships.",
+        "excerpt": "This year’s annual summer programming camp at the university saw a record participation of 120 students from various backgrounds and regions.",
+        "author": "Student Web",
         "datePublished": "2025-05-28"
     },
     {
         "id": 3,
-        "title": "AI-labb öppnar för forskningsprojekt",
-        "body": "Ett nytt AI-laboratorium invigdes i maj 2025 och riktar sig till doktorander och masterstudenter som vill bedriva forskning inom artificiell intelligens och maskininlärning. Labbet är utrustat med kraftfulla GPU-kluster och erbjuder workshops i neurala nätverk och datavetenskap.",
-        "author": "Teknikrapporten",
+        "title": "AI Lab Opens for Research Projects",
+        "body": "A new AI laboratory was inaugurated in May 2025, aiming to support PhD candidates and master’s students interested in pursuing research in artificial intelligence and machine learning. The lab is equipped with powerful GPU clusters capable of handling large-scale neural network training, high-performance workstations for data preprocessing, and a dedicated server room with cloud integration for collaborative projects. Workshops on deep learning frameworks, natural language processing, and computer vision have already been scheduled for the summer term. Faculty members from the Departments of Computer Science and Electrical Engineering will lead specialized research groups focusing on areas such as reinforcement learning, robotics, and AI ethics. Through partnerships with industry sponsors, the lab offers opportunities for joint publications, internships, and access to proprietary datasets. The facility also provides shared lounge spaces for informal brainstorming sessions and hosts monthly seminars featuring renowned AI researchers.",
+        "excerpt": "A new AI laboratory was inaugurated in May 2025, aiming to support PhD candidates and master’s students interested in pursuing research in artificial intelligence and machine learning.",
+        "author": "Education Weekly",
         "datePublished": "2025-05-15"
     },
     {
         "id": 4,
-        "title": "Kodmaraton i samarbete med lokala företag",
-        "body": "Den 10 juni 2025 arrangerar studentföreningen ett 24-timmars kodmaraton i samarbete med flera tech-företag i regionen. Evenemanget erbjuder priser för bästa hackprojekt och möjlighet till praktikplatser. Anmälan stänger den 5 juni.",
-        "author": "IT-Universitetet",
+        "title": "24-Hour Code Marathon in Collaboration with Local Companies",
+        "body": "On June 10, 2025, the student association will host a 24-hour code marathon in partnership with several regional tech companies, including Innovatech Solutions and Nordic Software Group. Participants will form teams of up to four members and tackle real-world problems provided by sponsoring firms, such as developing a prototype mobile app for local healthcare or designing an eco-friendly e-commerce platform. Prizes will be awarded for best hack, most innovative solution, and strongest technical implementation, with winning teams receiving cash awards, internship offers, and tech gadgets. The event will feature keynote speeches from CEOs, live coding demonstrations, and networking sessions. Registration closes on June 5, and interested students must submit a brief project proposal outlining their skills and area of interest. Refreshments and sleep pods will be available on-site to support participants throughout the marathon.",
+        "excerpt": "On June 10, 2025, the student association will host a 24-hour code marathon in partnership with several regional tech companies, including Innovatech Solutions and Nordic Software Group.",
+        "author": "Campus Chronicle",
         "datePublished": "2025-05-30"
     },
     {
         "id": 5,
-        "title": "Ny kurs i cybersäkerhet lanseras",
-        "body": "Från höstterminen 2025 erbjuds en ny kurs i cybersäkerhet som täcker penetrationstestning, nätverkssäkerhet och etisk hacking. Kursen leds av branschexperter och innehåller praktiska laborationer i ett säkert testnätverk. Intresseanmälan öppnar 1 juli.",
-        "author": "Cybernytt",
+        "title": "New Cybersecurity Course Launched",
+        "body": "Starting in the fall term of 2025, the university will offer a new cybersecurity course covering penetration testing, network security, and ethical hacking. Led by industry experts from leading security firms, the curriculum combines theoretical lectures on encryption algorithms, threat modeling, and digital forensics with practical lab exercises in a controlled test network. Students will learn to identify vulnerabilities in web applications, perform vulnerability assessments, and develop mitigation strategies. The course also includes modules on security policy development, risk management frameworks, and legal aspects of cybersecurity. Participants completing the course will have the opportunity to earn professional certifications such as CompTIA Security+ and Certified Ethical Hacker (CEH). Enrollment interest forms open on July 1, and priority will be given to computer science, information technology, and engineering majors.",
+        "excerpt": "Starting in the fall term of 2025, the university will offer a new cybersecurity course covering penetration testing, network security, and ethical hacking.",
+        "author": "Cyber News",
         "datePublished": "2025-05-20"
     },
     {
         "id": 6,
-        "title": "Utbytesstudier öppnar upp för Asien 2026",
-        "body": "International Office meddelar att utbytesprogrammet för vårterminen 2026 nu inkluderar partneruniversitet i Japan, Sydkorea och Singapore. Ansökningsperioden startar 1 september 2025, och informationsträff hålls den 15 augusti i Aulan.",
-        "author": "Internationella Kontoret",
+        "title": "Exchange Studies Expand to Asia in 2026",
+        "body": "The International Office announces that the exchange program for the spring term of 2026 will now include partner universities in Japan, South Korea, and Singapore. Application period begins on September 1, 2025, and an information session will be held on August 15 in the main auditorium. The new partnerships encompass prestigious institutions such as the University of Tokyo, Seoul National University, and the National University of Singapore, offering students opportunities to study subjects ranging from engineering to international business. The program provides language support in Japanese, Korean, and English, and offers scholarships covering part of the tuition fees and living expenses. Participants will have access to on-campus housing, local mentorship programs, and cultural immersion activities, including homestays and guided tours of historical sites. The exchange also facilitates research collaborations for graduate students and joint workshops on sustainability and technology innovation.",
+        "excerpt": "The International Office announces that the exchange program for the spring term of 2026 will now include partner universities in Japan, South Korea, and Singapore.",
+        "author": "Education Weekly",
         "datePublished": "2025-05-25"
+    },
+    {
+        "id": 7,
+        "title": "University Secures €2 Million Research Grant",
+        "body": "The university has been awarded a €2 million research grant from the European Research Council to investigate advanced materials for renewable energy applications. The interdisciplinary project, led by Professor Erik Karlsson, will explore the development of high-efficiency photovoltaic cells using perovskite-based semiconductors. Over the next three years, the research team will collaborate with industry partners such as SolarTech Innovations and renewable energy labs across Europe to prototype scalable solar panels. Graduate students and postdoctoral researchers will participate in weekly lab meetings, international conferences, and training workshops on nanofabrication techniques. The project also includes outreach efforts targeting local high schools to inspire interest in sustainable technologies. Quarterly progress reports are scheduled to ensure transparency and allow stakeholders to monitor milestones and financial allocations.",
+        "excerpt": "The university has been awarded a €2 million research grant from the European Research Council to investigate advanced materials for renewable energy applications.",
+        "author": "Research News",
+        "datePublished": "2025-06-05"
+    },
+    {
+        "id": 8,
+        "title": "Student Team Wins International Robotics Competition",
+        "body": "A team of five engineering undergraduates from the university won first place at the International Robotics Challenge held in Berlin, Germany, on June 3, 2025. The students designed and built an autonomous drone capable of obstacle navigation, precision mapping, and object retrieval in simulated disaster scenarios. Their project, titled “SkyGuard,” impressed judges with its innovative use of stereoscopic vision, real-time data processing, and energy-efficient power management. The team received a cash prize of €10,000, sponsorship offers from drone manufacturers, and an invitation to present their work at the Global Robotics Summit in Tokyo later this year. Faculty advisor Dr. Lina Svensson praised the students for their dedication, noting that the project began as a final-year capstone in their third year and evolved into a multidisciplinary collaboration with computer science students focusing on AI algorithms. The celebration included a ceremony at the engineering building, where the containerized drone prototype was demonstrated to peers and local media.",
+        "excerpt": "A team of five engineering undergraduates from the university won first place at the International Robotics Challenge held in Berlin, Germany, on June 3, 2025.",
+        "author": "Campus Chronicle",
+        "datePublished": "2025-06-10"
+    },
+    {
+        "id": 9,
+        "title": "Green Campus Initiative Launches Sustainability Program",
+        "body": "The university’s Green Campus Initiative has launched a new sustainability program aimed at reducing campus carbon emissions by 40% over the next five years. Announced on June 8, 2025, the program includes installing solar panels on dormitories, upgrading the HVAC system for increased energy efficiency, and launching a campus-wide composting project. Undergraduate and graduate student volunteers will lead weekly green workshops covering topics such as urban gardening, recycling best practices, and carbon footprint tracking. The initiative also partners with local government to improve bike lanes and increase the number of electric vehicle charging stations on campus. A sustainability advisory board comprising faculty, staff, and student representatives will meet monthly to monitor progress, allocate funds for green research projects, and organize annual eco-fairs to showcase innovations from the university community.",
+        "excerpt": "The university’s Green Campus Initiative has launched a new sustainability program aimed at reducing campus carbon emissions by 40% over the next five years.",
+        "author": "Green News",
+        "datePublished": "2025-06-12"
+    },
+    {
+        "id": 10,
+        "title": "Alumni Association Hosts Annual Career Networking Fair",
+        "body": "On June 20, 2025, the Alumni Association will host its annual Career Networking Fair in the main conference hall, inviting over 50 employers from various industries, including finance, healthcare, technology, and non-profit organizations. Students and recent graduates can participate in mock interviews, resume review sessions, and panel discussions led by successful alumni. The event features workshops on job search strategies, LinkedIn profile optimization, and salary negotiation tactics. Representatives from top companies such as Nordic Bank, MediTech Labs, and SoftWave Solutions will conduct on-site recruitment, offering internship and entry-level positions. The fair concludes with a keynote address by alumna Maria Lindgren, CEO of FinNext, who will share insights on leadership and innovation in the fintech sector. Pre-registration is required by June 18, and attendees are encouraged to bring multiple copies of their resumes and dress in professional attire.",
+        "excerpt": "On June 20, 2025, the Alumni Association will host its annual Career Networking Fair in the main conference hall, inviting over 50 employers from various industries, including finance, healthcare, technology, and non-profit organizations.",
+        "author": "Alumni Today",
+        "datePublished": "2025-06-15"
+    },
+    {
+        "id": 11,
+        "title": "Breakthrough in Cancer Research Published by University Scientists",
+        "body": "University researchers have published a groundbreaking study in the Journal of Oncology on June 14, 2025, detailing a novel gene therapy approach to target aggressive forms of brain cancer. The interdisciplinary team, led by Professor Karin Andersson, identified a specific genetic marker present in glioblastoma cells and engineered a viral vector to deliver a therapeutic gene that induces apoptosis in malignant tumors. Preclinical trials in mouse models showed a 70% reduction in tumor size and extended survival rates by an average of 50%. The research received funding from the National Cancer Foundation and involved collaboration with the university hospital’s neurosurgery department. Plans are underway to initiate Phase I clinical trials later this year, pending regulatory approval. The discovery has attracted international attention, and the research team will present their findings at the European Cancer Research Conference in October 2025.",
+        "excerpt": "University researchers have published a groundbreaking study in the Journal of Oncology on June 14, 2025, detailing a novel gene therapy approach to target aggressive forms of brain cancer.",
+        "author": "Health Science Daily",
+        "datePublished": "2025-06-18"
+    },
+    {
+        "id": 12,
+        "title": "Community Outreach Program Provides Free Tutoring to Local Schools",
+        "body": "The university’s Community Outreach Program has launched a free tutoring initiative for students at four local elementary and middle schools, beginning on June 16, 2025. Over 80 volunteer tutors, including education majors, peer mentors, and community members, offer weekly sessions in mathematics, science, and language arts. The program aims to improve academic performance and foster interest in higher education among underrepresented youth. Tutors receive training on effective teaching strategies and cultural competence. In addition to classroom support, the program provides educational materials, organizes biweekly science fairs, and offers summer reading camps to prevent learning loss. Parents and teachers have reported significant improvements in student engagement and test scores. Future plans include expanding the program to nearby rural communities and securing additional funding through local business sponsorships.",
+        "excerpt": "The university’s Community Outreach Program has launched a free tutoring initiative for students at four local elementary and middle schools, beginning on June 16, 2025.",
+        "author": "Education Weekly",
+        "datePublished": "2025-06-20"
     }
 ]

@@ -49,7 +49,12 @@ export default function CourseDetails() {
                 <Button as={Link} to='/courses' variant='outline-secondary'>
                     ← Back to Courses
                 </Button>
-                <Button as={Link} to="/register" variant="primary">
+                <Button 
+                    as={Link} 
+                    to="/register" 
+                    state={{courseId: course.id}}
+                    variant="primary"
+                >
                     Register
                 </Button>
             </div>

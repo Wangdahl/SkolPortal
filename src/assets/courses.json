@@ -2,61 +2,121 @@
     {
         "id": 1,
         "title": "Introduction to Programming",
-        "shortDescription": "Lär dig grunderna i programmering med Python.",
-        "detailedDescription": "Denna kurs täcker grundläggande programmeringskoncept, såsom variabler, kontrollstrukturer, funktioner och grundläggande datastrukturer. Studenter kommer att skriva Python-skript för att lösa verkliga problem och få en stabil grund för vidare studier inom mjukvaruutveckling.",
+        "shortDescription": "Learn the basics of programming with Python.",
+        "detailedDescription": "This course covers fundamental programming concepts such as variables, control structures, functions, and basic data structures. Students will write Python scripts to solve real-world problems and gain a solid foundation for further studies in software development.",
         "instructor": "Dr. Sofia Larsson",
         "credits": 5,
-        "duration": "10 veckor",
-        "category": "Datavetenskap"
+        "duration": "10 weeks",
+        "category": "Computer Science"
     },
     {
         "id": 2,
-        "title": "Webbutveckling med React",
-        "shortDescription": "Bygg moderna webbapplikationer med React och Vite.",
-        "detailedDescription": "I denna kurs lär du dig att skapa interaktiva och responsiva webbapplikationer med React, React Router och Vite. Kursen omfattar komponentbaserad arkitektur, state-hantering med useState/useEffect, samt användning av externa UI-bibliotek som Bootstrap och Material UI för att skapa professionella användargränssnitt.",
+        "title": "Web Development with React",
+        "shortDescription": "Build modern web applications with React and Vite.",
+        "detailedDescription": "In this course, you will learn to create interactive and responsive web applications using React, React Router, and Vite. Topics include component-based architecture, state management with useState/useEffect, and integrating external UI libraries like Bootstrap and Material UI to design professional user interfaces.",
         "instructor": "Prof. Erik Svensson",
         "credits": 7,
-        "duration": "12 veckor",
-        "category": "Webbutveckling"
+        "duration": "12 weeks",
+        "category": "Web Development"
     },
     {
         "id": 3,
-        "title": "Databasteknik och SQL",
-        "shortDescription": "Fundamentala tekniker för relationsdatabaser och SQL.",
-        "detailedDescription": "Denna kurs introducerar begrepp inom relationsdatabaser, ER-modellering och SQL-frågor. Studenter kommer att designa databasscheman, skriva komplexa SQL-frågor för att hämta och manipulera data, samt arbeta med transaktioner och indexering för att optimera prestanda.",
+        "title": "Database Technology and SQL",
+        "shortDescription": "Fundamental techniques for relational databases and SQL.",
+        "detailedDescription": "This course introduces concepts in relational databases, ER modeling, and SQL queries. Students will design database schemas, write complex SQL queries to retrieve and manipulate data, and work with transactions and indexing to optimize performance.",
         "instructor": "Dr. Hanna Bergström",
         "credits": 6,
-        "duration": "8 veckor",
-        "category": "Datavetenskap"
+        "duration": "8 weeks",
+        "category": "Computer Science"
     },
     {
         "id": 4,
-        "title": "Mobilapputveckling med Flutter",
-        "shortDescription": "Skapa cross-platform mobilappar med Flutter och Dart.",
-        "detailedDescription": "I denna kurs lär du dig att utveckla mobilapplikationer för både iOS och Android med Flutter-ramverket. Kursen täcker widgetbaserad UI-design, state management med Provider och Riverpod, samt integration av REST-API:er och lokala databaser. Studenterna bygger en komplett app från idé till publicering.",
+        "title": "Mobile App Development with Flutter",
+        "shortDescription": "Create cross-platform mobile apps with Flutter and Dart.",
+        "detailedDescription": "In this course, you will learn how to develop mobile applications for both iOS and Android using the Flutter framework. Topics include widget-based UI design, state management with Provider and Riverpod, and integrating REST APIs and local databases. Students will build a complete app from concept to publication.",
         "instructor": "Prof. Jonas Lindqvist",
         "credits": 7,
-        "duration": "10 veckor",
-        "category": "Mobilutveckling"
+        "duration": "10 weeks",
+        "category": "Mobile Development"
     },
     {
         "id": 5,
-        "title": "Algoritmer och datastrukturer",
-        "shortDescription": "Analysera och designa effektiva algoritmer.",
-        "detailedDescription": "Denna kurs fokuserar på fundamentala algoritmer och datastrukturer, inklusive sorterings- och sökalgoritmer, träd, grafer, hashtabeller och dynamisk programmering. Studenter analyserar tids- och rymdkomplexitet och implementerar algoritmer i Java för att lösa avancerade problem.",
+        "title": "Algorithms and Data Structures",
+        "shortDescription": "Analyze and design efficient algorithms.",
+        "detailedDescription": "This course focuses on fundamental algorithms and data structures, including sorting and searching algorithms, trees, graphs, hash tables, and dynamic programming. Students will analyze time and space complexity and implement algorithms in Java to solve advanced problems.",
         "instructor": "Dr. Maria Holm",
         "credits": 8,
-        "duration": "14 veckor",
-        "category": "Datavetenskap"
+        "duration": "14 weeks",
+        "category": "Computer Science"
     },
     {
         "id": 6,
-        "title": "UX/UI-design för webb",
-        "shortDescription": "Principer för användarcentrerad design och prototyper.",
-        "detailedDescription": "I denna kurs utforskar vi grunderna i användarupplevelse och användargränssnitt för webbapplikationer. Studenter lär sig att genomföra användarundersökningar, skapa wireframes och interaktiva prototyper med verktyg som Figma, samt testa och iterera designen baserat på användarfeedback. Kursen betonar tillgänglighet och responsiv design.",
+        "title": "UX/UI Design for Web",
+        "shortDescription": "Principles of user-centered design and prototypes.",
+        "detailedDescription": "In this course, we explore the fundamentals of user experience and user interface design for web applications. Students learn to conduct user research, create wireframes and interactive prototypes using tools like Figma, and test and iterate designs based on user feedback. The course emphasizes accessibility and responsive design.",
         "instructor": "Prof. Lina Pettersson",
         "credits": 5,
-        "duration": "9 veckor",
+        "duration": "9 weeks",
         "category": "Design"
+    },
+    {
+        "id": 7,
+        "title": "Machine Learning Basics",
+        "shortDescription": "Introduction to machine learning concepts and applications.",
+        "detailedDescription": "This course covers supervised and unsupervised learning algorithms, including regression, classification, clustering, and dimensionality reduction. Students will implement models using Python libraries such as scikit-learn and TensorFlow, and learn how to evaluate model performance on real datasets.",
+        "instructor": "Dr. Alexander Pettersson",
+        "credits": 6,
+        "duration": "11 weeks",
+        "category": "Computer Science"
+    },
+    {
+        "id": 8,
+        "title": "Cybersecurity Fundamentals",
+        "shortDescription": "Learn the essentials of protecting digital systems and data.",
+        "detailedDescription": "In this course, students will explore core concepts of cybersecurity, including network security, encryption, threat analysis, and risk management. Topics include securing web applications, ethical hacking basics, and developing a security policy for an organization. Practical labs will reinforce best practices for defending against cyber threats.",
+        "instructor": "Prof. Karin Nilsson",
+        "credits": 5,
+        "duration": "8 weeks",
+        "category": "Information Security"
+    },
+    {
+        "id": 9,
+        "title": "Cloud Computing with AWS",
+        "shortDescription": "Explore cloud service models and AWS infrastructure.",
+        "detailedDescription": "This course introduces cloud computing concepts and dives into Amazon Web Services (AWS) core services like EC2, S3, RDS, and Lambda. Students will learn about IaaS, PaaS, and SaaS models, deploy scalable applications, manage cloud resources, and implement cost-optimization strategies.",
+        "instructor": "Dr. Erik Olsson",
+        "credits": 7,
+        "duration": "10 weeks",
+        "category": "Cloud Computing"
+    },
+    {
+        "id": 10,
+        "title": "Game Development with Unity",
+        "shortDescription": "Design and develop 2D and 3D games using Unity.",
+        "detailedDescription": "In this course, students will learn game architecture, C# scripting, physics, animation, and asset management using the Unity engine. The curriculum guides students through building a complete game project from concept to deployment, covering level design, character control, and user interface integration.",
+        "instructor": "Prof. Ingrid Johansson",
+        "credits": 6,
+        "duration": "12 weeks",
+        "category": "Game Development"
+    },
+    {
+        "id": 11,
+        "title": "Data Visualization and Analytics",
+        "shortDescription": "Learn to visualize and analyze data using modern tools.",
+        "detailedDescription": "This course covers principles of data visualization and analytics. Students will build interactive dashboards with tools like Tableau and Power BI, perform data analysis using Python (pandas, matplotlib), and learn how to tell a compelling story with data for business insights. Hands-on projects emphasize real-world datasets.",
+        "instructor": "Dr. Stefan Larsson",
+        "credits": 5,
+        "duration": "9 weeks",
+        "category": "Data Science"
+    },
+    {
+        "id": 12,
+        "title": "Artificial Intelligence Ethics",
+        "shortDescription": "Examine the ethical implications of AI systems.",
+        "detailedDescription": "This course explores the ethical, legal, and social implications of artificial intelligence. Topics include bias and fairness in AI models, privacy concerns, accountability, and transparency. Students will analyze case studies and develop guidelines for deploying AI systems responsibly in various industries.",
+        "instructor": "Prof. Emma Karlsson",
+        "credits": 4,
+        "duration": "6 weeks",
+        "category": "Ethics"
     }
 ]
