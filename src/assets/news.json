@@ -1,0 +1,44 @@
+[
+    {
+        "id": 1,
+        "title": "Nytt campusbibliotek invigt",
+        "body": "Universitetets nya campusbibliotek invigdes den 1 juni 2025 med öppna föreläsningar och guidade turer. Biblioteket har moderna studieplatser, ett omfattande digitalt arkiv och caféfaciliteter för studenter. Invigningen lockade över 500 besökare inklusive fakultetsmedlemmar och studenter.",
+        "author": "Campusnytt",
+        "datePublished": "2025-06-01"
+    },
+    {
+        "id": 2,
+        "title": "Sommarläger för programmering lockar rekordmånga",
+        "body": "Det årliga sommarprogrammeringslägret på universitetet såg i år rekordhögt deltagande med 120 studenter. Under två veckor får deltagarna intensiv träning i Python, JavaScript och maskininlärning. Lägret avslutas med att grupperna presenterar egna projekt för en jury av professorer.",
+        "author": "Studentwebben",
+        "datePublished": "2025-05-28"
+    },
+    {
+        "id": 3,
+        "title": "AI-labb öppnar för forskningsprojekt",
+        "body": "Ett nytt AI-laboratorium invigdes i maj 2025 och riktar sig till doktorander och masterstudenter som vill bedriva forskning inom artificiell intelligens och maskininlärning. Labbet är utrustat med kraftfulla GPU-kluster och erbjuder workshops i neurala nätverk och datavetenskap.",
+        "author": "Teknikrapporten",
+        "datePublished": "2025-05-15"
+    },
+    {
+        "id": 4,
+        "title": "Kodmaraton i samarbete med lokala företag",
+        "body": "Den 10 juni 2025 arrangerar studentföreningen ett 24-timmars kodmaraton i samarbete med flera tech-företag i regionen. Evenemanget erbjuder priser för bästa hackprojekt och möjlighet till praktikplatser. Anmälan stänger den 5 juni.",
+        "author": "IT-Universitetet",
+        "datePublished": "2025-05-30"
+    },
+    {
+        "id": 5,
+        "title": "Ny kurs i cybersäkerhet lanseras",
+        "body": "Från höstterminen 2025 erbjuds en ny kurs i cybersäkerhet som täcker penetrationstestning, nätverkssäkerhet och etisk hacking. Kursen leds av branschexperter och innehåller praktiska laborationer i ett säkert testnätverk. Intresseanmälan öppnar 1 juli.",
+        "author": "Cybernytt",
+        "datePublished": "2025-05-20"
+    },
+    {
+        "id": 6,
+        "title": "Utbytesstudier öppnar upp för Asien 2026",
+        "body": "International Office meddelar att utbytesprogrammet för vårterminen 2026 nu inkluderar partneruniversitet i Japan, Sydkorea och Singapore. Ansökningsperioden startar 1 september 2025, och informationsträff hålls den 15 augusti i Aulan.",
+        "author": "Internationella Kontoret",
+        "datePublished": "2025-05-25"
+    }
+]

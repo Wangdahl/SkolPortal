@@ -1,0 +1,62 @@
+[
+    {
+        "id": 1,
+        "title": "Introduction to Programming",
+        "shortDescription": "Lär dig grunderna i programmering med Python.",
+        "detailedDescription": "Denna kurs täcker grundläggande programmeringskoncept, såsom variabler, kontrollstrukturer, funktioner och grundläggande datastrukturer. Studenter kommer att skriva Python-skript för att lösa verkliga problem och få en stabil grund för vidare studier inom mjukvaruutveckling.",
+        "instructor": "Dr. Sofia Larsson",
+        "credits": 5,
+        "duration": "10 veckor",
+        "category": "Datavetenskap"
+    },
+    {
+        "id": 2,
+        "title": "Webbutveckling med React",
+        "shortDescription": "Bygg moderna webbapplikationer med React och Vite.",
+        "detailedDescription": "I denna kurs lär du dig att skapa interaktiva och responsiva webbapplikationer med React, React Router och Vite. Kursen omfattar komponentbaserad arkitektur, state-hantering med useState/useEffect, samt användning av externa UI-bibliotek som Bootstrap och Material UI för att skapa professionella användargränssnitt.",
+        "instructor": "Prof. Erik Svensson",
+        "credits": 7,
+        "duration": "12 veckor",
+        "category": "Webbutveckling"
+    },
+    {
+        "id": 3,
+        "title": "Databasteknik och SQL",
+        "shortDescription": "Fundamentala tekniker för relationsdatabaser och SQL.",
+        "detailedDescription": "Denna kurs introducerar begrepp inom relationsdatabaser, ER-modellering och SQL-frågor. Studenter kommer att designa databasscheman, skriva komplexa SQL-frågor för att hämta och manipulera data, samt arbeta med transaktioner och indexering för att optimera prestanda.",
+        "instructor": "Dr. Hanna Bergström",
+        "credits": 6,
+        "duration": "8 veckor",
+        "category": "Datavetenskap"
+    },
+    {
+        "id": 4,
+        "title": "Mobilapputveckling med Flutter",
+        "shortDescription": "Skapa cross-platform mobilappar med Flutter och Dart.",
+        "detailedDescription": "I denna kurs lär du dig att utveckla mobilapplikationer för både iOS och Android med Flutter-ramverket. Kursen täcker widgetbaserad UI-design, state management med Provider och Riverpod, samt integration av REST-API:er och lokala databaser. Studenterna bygger en komplett app från idé till publicering.",
+        "instructor": "Prof. Jonas Lindqvist",
+        "credits": 7,
+        "duration": "10 veckor",
+        "category": "Mobilutveckling"
+    },
+    {
+        "id": 5,
+        "title": "Algoritmer och datastrukturer",
+        "shortDescription": "Analysera och designa effektiva algoritmer.",
+        "detailedDescription": "Denna kurs fokuserar på fundamentala algoritmer och datastrukturer, inklusive sorterings- och sökalgoritmer, träd, grafer, hashtabeller och dynamisk programmering. Studenter analyserar tids- och rymdkomplexitet och implementerar algoritmer i Java för att lösa avancerade problem.",
+        "instructor": "Dr. Maria Holm",
+        "credits": 8,
+        "duration": "14 veckor",
+        "category": "Datavetenskap"
+    },
+    {
+        "id": 6,
+        "title": "UX/UI-design för webb",
+        "shortDescription": "Principer för användarcentrerad design och prototyper.",
+        "detailedDescription": "I denna kurs utforskar vi grunderna i användarupplevelse och användargränssnitt för webbapplikationer. Studenter lär sig att genomföra användarundersökningar, skapa wireframes och interaktiva prototyper med verktyg som Figma, samt testa och iterera designen baserat på användarfeedback. Kursen betonar tillgänglighet och responsiv design.",
+        "instructor": "Prof. Lina Pettersson",
+        "credits": 5,
+        "duration": "9 veckor",
+        "category": "Design"
+    }
+]
