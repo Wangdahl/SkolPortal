@@ -1,3 +1,6 @@
 import { createContext } from 'react'
 
-export const RegCoursesContext = createContext();
+export const RegCoursesContext = createContext({
+    registered: [],
+    registerCourse: () => {}
+});

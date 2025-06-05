@@ -24,7 +24,7 @@ export default function CourseDetails() {
     //Placeholder img
     const imgUrl = `https://picsum.photos/seed/course-${course.id * 4}/800/400`;
     return (
-        <main>
+        <main className="mb-5">
             <h1 className='mb-4'>{course.title}</h1>
             <Card className='mb-4'>
                 <Card.Img variant='top' src={imgUrl} alt={course.title} />

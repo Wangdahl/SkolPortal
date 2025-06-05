@@ -1,5 +1,6 @@
 import { useState } from 'react'
-import { ListGroup, Pagination} from 'react-bootstrap'
+import { ListGroup, Pagination, Button} from 'react-bootstrap'
+import { Link } from 'react-router-dom'
 import SearchBar from '../components/SearchBar'
 import newsList from '../assets/news.json'
 
@@ -16,9 +17,9 @@ export default function News() {
     const totalPages = Math.ceil(filteredNews.length / itemsPerPage);
     const startIndex = (currentPage -1) * itemsPerPage;
     const paginatedNews = filteredNews.slice(startIndex, startIndex + itemsPerPage);
-    
+
     return (
-        <main>
+        <main className="mb-5">
             <h1 className='mb-4'>News</h1>
             <SearchBar
                 value={search}
@@ -29,10 +30,20 @@ export default function News() {
                 {paginatedNews.map(item => (
                     <ListGroup.Item key={item.id} className='mb-3'>
                         <h2>{item.title}</h2>
-                        <p>{item.body}</p>
+                        <p>{item.excerpt}</p>
                         <small>
                             {item.author} - {item.datePublished}
                         </small>
+                        <div className='mt-2'>
+                            <Button 
+                                as={Link}
+                                to={`/news/${item.id}`}
+                                variant='primary'
+                                size='sm'
+                            >
+                                Read more
+                            </Button>
+                        </div>
                     </ListGroup.Item>
                 ))}
             </ListGroup>

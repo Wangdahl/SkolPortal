@@ -3,10 +3,10 @@ import { Link } from 'react-router-dom'
 
 export default function Home() {
     return (
-        <main className="text-center">
+        <main className="text-center mb-5">
             {/* welcome section */}
             <div className='text-center mb-4'>
-                <h1>Welcome to StudentPortalen</h1>
+                <h1>Welcome to StudentPortal</h1>
                 <p className='lead'>Explore courses and the latest news here.</p>
             </div>
             {/* Card links */}

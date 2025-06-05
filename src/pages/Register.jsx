@@ -36,12 +36,12 @@ export default function Register() {
         setErrors(newErrors);
         if(!newErrors.name && !newErrors.email && !newErrors.course) {
             //If valid register
-            registerCourse(courseId);
+            registerCourse({ courseId, name, email });
             setDialogOpen(true);
         }
     }
     return (
-        <main>
+        <main className="mb-5">
             <h1>Register</h1>
             <form noValidate onSubmit={handleSubmit}>
                 <TextField
